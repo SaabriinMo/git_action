@@ -6,7 +6,7 @@ import main
 def test_get_list_of_users():
     url = "https://genshin.jmp.blue/"
     response = requests.get(url)
-    assert response.status_code == 200
+    assert response.status_code == 20
 
 
 def test_get_characters(mocker):
