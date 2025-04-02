@@ -1,6 +1,7 @@
 import main
 import requests
 
+
 def test_get_list_of_users():
     url = "https://genshin.jmp.blue/"
     response = requests.get(url)
