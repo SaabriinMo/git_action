@@ -3,19 +3,6 @@ name: Super-Linter
 on: push
 
 jobs:
-  run-tests:
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [macos-latest, windows-latest, linux-os]
-        python-version:
-          - 3.9
-          - 3.10
-          - 3.11
-    
-    name: test
-    runs-on: ${{ matrix.os }}
-
   super-lint:
     name: Lint code base
     runs-on: ubuntu-latest
