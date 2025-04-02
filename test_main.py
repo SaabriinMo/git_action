@@ -1,5 +1,5 @@
-import requests
 import main
+import requests
 
 
 def test_get_list_of_users():
