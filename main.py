@@ -1,6 +1,5 @@
 import requests
 
-
 URL = "https://genshin.jmp.blue/"
 HEADER = {"Accept": "application/json"}
 # status_code = requests.get("https://genshin.jmp.blue/", headers={'Accept': 'application/json'})

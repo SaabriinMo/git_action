@@ -1,5 +1,7 @@
-import main
 import requests
+
+import main
+
 
 def test_get_list_of_users():
     url = "https://genshin.jmp.blue/"
